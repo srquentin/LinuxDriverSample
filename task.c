@@ -7,7 +7,7 @@ MODULE_AUTHOR("Quentin <lee.rhapsody AT gmail.com>");
 static int task_init(void)
 {
        	printk(KERN_DEBUG"init simple Linux driver");
-    	return result;	
+    	return 0;	
 }
 
 static void task_exit(void)
