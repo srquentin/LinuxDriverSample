@@ -3,6 +3,7 @@
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Quentin <lee.rhapsody AT gmail.com>");
+MODULE_DESCRIPTION("Simple Linux driver");
 
 static int task_init(void)
 {
