@@ -7,13 +7,13 @@ MODULE_DESCRIPTION("Simple Linux driver");
 
 static int task_init(void)
 {
-       	printk(KERN_DEBUG"init simple Linux driver");
+       	pr_debug("init simple Linux driver\n");
     	return 0;	
 }
 
 static void task_exit(void)
 {
-	printk(KERN_DEBUG"exit\n");
+	pr_debug("exit\n");
 }
 
 module_init(task_init);
